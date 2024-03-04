@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 80px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal .logo{
+    max-width: 250px;
+}
+
+.conteudo-principal .main-image{
+    width: 670px;
+}
+
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 25px;
+}
+
+.texto-principal h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+}
+
+.texto-principal p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.btn{
+    margin-bottom: 1px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 1.9rem;
+    padding: 15px 20px; 
+    cursor: pointer;
+    transition: all .3s ease-in;
+    color: hsl(321, 100%, 78%);
+    border-style: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+}
+
+.btn:hover{
+    background-color: hsl(321, 100%, 78%);
+    color: #ffffff;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 20px;
+}
+
+.fab{
+    margin-bottom: 1px;
+    background-color: hsl(257, 40%, 49%);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 10px 10px; 
+    cursor: pointer;
+    transition: all .3s ease-in;
+    color: #fff;
+    border-style: 1px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fab:hover{
+    color: hsl(321, 100%, 78%);
+    background-color: #fff;
+}
+
+
+

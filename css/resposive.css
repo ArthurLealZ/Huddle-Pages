@@ -1,0 +1,28 @@
+@media (max-width:900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width:900px){
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+}
+
+@media (max-width:900px){
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+    }
+}
