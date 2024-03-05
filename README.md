@@ -1,4 +1,4 @@
-<h3> Descrição do projeto </h3>
+<h3> Hudle Landing Page </h3>
 Esta é uma(landing page) do Huddle com uma única seção introdutória, proposto pelo Frontend Mentor.  O desafio consiste em criar uma página responsiva com uma única seção introdutória,
 que deve ser visualizável em diferentes tamanhos de tela. 
 
